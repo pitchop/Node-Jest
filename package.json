@@ -1,0 +1,25 @@
+{
+  "name": "jest-poc",
+  "version": "1.0.0",
+  "description": "jest-poc",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest --coverage --config jest.config.js",
+    "test-ci": "cross-env NODE_ENV=test jest --color -i --config jest.config.ci.js",
+    "test:unit": "jest unit --config jest.config.js",
+    "test:unit:watch": "jest unit --config jest.config.js --watch ",
+    "test:watch": "jest --coverage --config jest.config.js --watch "
+  },
+  "author": "Legrand",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "express": "^4.17.3",
+    "jest": "^27.5.1"
+  },
+  "devDependencies": {
+    "jest-junit": "^13.0.0",
+    "jest-sonar-reporter": "^2.0.0"
+  }
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="/Users/radouane/Documents/Projects/Legrand/Repositories/Features/eliot-poc/jest-poc/src/test/exampleError.test.js">
+    <testCase name="Addition: Throw Error when inputs are not numbers" duration="9"/>
+    <testCase name="Subtraction: Throw Error when inputs are not numbers" duration="0"/>
+    <testCase name="Multiplication: Throw Error when inputs are not numbers" duration="1"/>
+    <testCase name="Multiplying two numbers" duration="1"/>
+  </file>
+  <file path="/Users/radouane/Documents/Projects/Legrand/Repositories/Features/eliot-poc/jest-poc/src/test/example.unit.test.js">
+    <testCase name="Adding two numbers" duration="5"/>
+    <testCase name="Subtracting two numbers" duration="1"/>
+    <testCase name="Multiplying two numbers" duration="2"/>
+    <testCase name="Testing with async Adding two numbers" duration="2"/>
+    <testCase name="Testing with async Subtracting two numbers" duration="1"/>
+    <testCase name="Testing with async Multiplying two numbers" duration="1"/>
+  </file>
+  <file path="/Users/radouane/Documents/Projects/Legrand/Repositories/Features/eliot-poc/jest-poc/src/test/mock.test.js">
+    <testCase name="Should mock external api" duration="2"/>
+  </file>
+</testExecutions>
